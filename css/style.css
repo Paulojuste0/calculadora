@@ -1,0 +1,56 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Orbitron:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#calc{
+background-image: linear-gradient(to right,rgb(255, 251, 22),rgb(0, 247, 255),rgb(255, 3, 3));
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+}
+
+
+.fundo{
+    background: linear-gradient(45deg,orange,purple);
+    height: 100vh;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border: none;
+    margin: 3px;
+}
+.botao:hover{
+    background-color: black;
+}
+
+#resultado{
+    background-color: white;
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+}
